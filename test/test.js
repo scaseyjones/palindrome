@@ -15,7 +15,7 @@ describe("Phrase", function(){
             assert(plainPalindrome.palindrome());
         });
 
-        it("should return ture for a mixed-case palindrome", function(){
+        it("should return true for a mixed-case palindrome", function(){
             let mixedCasePalindrome = new Phrase("RaceCar");
             assert(mixedCasePalindrome.palindrome());
         });
